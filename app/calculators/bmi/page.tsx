@@ -91,7 +91,7 @@ export default function BMICalculator() {
                 <Input
                   id="height"
                   type="number"
-                  placeholder={unit === "metric" ? "175" : "69"}
+                  // placeholder={unit === "metric" ? "175" : "69"}
                   value={height}
                   onChange={(e) => setHeight(e.target.value)}
                 />
@@ -102,7 +102,7 @@ export default function BMICalculator() {
                 <Input
                   id="weight"
                   type="number"
-                  placeholder={unit === "metric" ? "70" : "154"}
+                  // placeholder={unit === "metric" ? "70" : "154"}
                   value={weight}
                   onChange={(e) => setWeight(e.target.value)}
                 />
